@@ -1,4 +1,5 @@
 .navRight {
+    width: 100%;
     min-width: 30%;
     background-color: cornsilk !important;
     display: inline-flex;
@@ -32,5 +33,14 @@
 .nav-link, .nav-link:hover {
     color: #fff;
     font-weight: bold;
+}
 
+@media (max-width:960px) {
+    .navbar {
+        padding: 2vw !important;
+    }
+    .nav-link {
+         margin: 8px 0 !important;
+         padding-right: 0px !important;
+    }
 }

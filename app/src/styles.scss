@@ -9,7 +9,7 @@ $theme-colors: (
 
 
 
-* {
+*{
    margin: 0;
    padding: 0;
    outline: 0;
@@ -17,4 +17,8 @@ $theme-colors: (
 }
 body, html {
     font-family: 'Varela Round', sans-serif;
+}
+
+button:focus {
+    outline: none;
 }
