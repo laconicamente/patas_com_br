@@ -31,9 +31,12 @@ export default class Main extends Component {
         // ))} </section>)
 
         return (
-            <Container fluid>
-                <Row>
-                    <Col className="background-container"></Col>
+            <Container fluid className="p-0 m-0">
+                <Row className="p-0 m-0 background-container">
+                    <Col md={{ span: 5, offset : 1 }}className="pt-5">
+                        <h1>Ter um companheiro <br /> para a vida</h1>
+                        <p>Já ouviu falar que um amigo não se compra? Adotar significa dar a chance para um animal ter um lar com muito amor e carinho. Com essa atitude consciente você mudará para sempre o destino de um peludo!</p>
+                    </Col>
                 </Row>
             </Container>
         )
