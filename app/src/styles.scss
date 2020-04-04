@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+$theme-colors: (
+    "info": tomato,
+    "danger": teal
+);
+@import "~bootstrap/scss/bootstrap";
+
+
+
+
+* {
+   margin: 0;
+   padding: 0;
+   outline: 0;
+   box-sizing: border-box;
+}
+body, html {
+    font-family: 'Varela Round', sans-serif;
+}

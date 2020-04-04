@@ -1,0 +1,11 @@
+.background-container{
+    width: 100%;
+    height: 350px;
+    background-color : #df692c;
+    background:linear-gradient(
+        to bottom,
+        rgba(82, 82, 80, 0.15),
+        rgba(247, 147, 45, 0.82)
+      ), url(../../assets/cachorro-cao.jpeg) top right / contain no-repeat, #df692c;
+      filter: contrast(1.5) hue-rotate(-16deg) brightness(0.95) saturate(0.95);
+}

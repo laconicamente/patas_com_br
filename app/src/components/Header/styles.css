@@ -1,0 +1,36 @@
+.navRight {
+    min-width: 30%;
+    background-color: cornsilk !important;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navRight .link {
+    margin-right: 5%;
+    color: #fff;
+    border-radius: 50px;
+    background: #ff6347a6;
+    height: 50px;
+    line-height: 2;
+    min-width: 35%;
+    text-align: center;
+    font-weight: 700;
+    transition: 1s;
+}
+.navRight .link:hover{
+    background: #d64127df;
+}
+.height-5 {
+    min-height: 7vw;
+}
+.navLeft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-link, .nav-link:hover {
+    color: #fff;
+    font-weight: bold;
+
+}
